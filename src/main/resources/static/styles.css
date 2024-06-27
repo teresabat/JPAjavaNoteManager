@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2em;
+    background: white;
+    margin-top: 5em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.7em;
+    font-size: 1em;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+#notes-list {
+    margin-top: 2em;
+}
+
+.note {
+    background: #e3e3e3;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.note h2 {
+    margin-top: 0;
+}
+
+.note p {
+    margin-bottom: 0;
+}
+
+.note button {
+    background: red;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.note button:hover {
+    background: darkred;
+}
